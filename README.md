@@ -10,7 +10,7 @@
 
 ## Demo
 
-Here is a working live demo : [Click Here](https://api-smarty.herokuapp.com/)
+[Here](https://api-smarty.herokuapp.com/) is a working live demo.
 
 ### Home Page
 
@@ -22,7 +22,6 @@ Here is a working live demo : [Click Here](https://api-smarty.herokuapp.com/)
 ### Front-End
 - HTML5
 - CSS3
-- tachyons
 - React.js
 
 ### NPM Packages
@@ -30,13 +29,7 @@ Here is a working live demo : [Click Here](https://api-smarty.herokuapp.com/)
 - Tachyons
 - react-tilt
 - particles.js
-- Bcrypt
-- Postgresql
-- knex
-- body parser
-- cors
-- express
 
 ### APIs
 - [Clarifai](https://www.clarifai.com/)
-- [Smart Brain API](https://github.com/emmanuelolivo1002/SmartBrain-API)
+- [Smart Brain API](https://github.com/sdevwrat/Smart-Brain-Api)
