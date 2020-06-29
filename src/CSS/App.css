@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.particle{
+ position: fixed;
+ top: 0;
+ right:0;
+ bottom: 0;
+ left: 0;
+ z-index: -2;
+}
+.valid{
+	font-size: .8em;
+	color: #ff4836	;
+}
+
+.sbg{
+background: #c0c0aa;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+input[type="email"],input[type="text"] ,input[type="password"]  { border: 1px solid #3636ff }
