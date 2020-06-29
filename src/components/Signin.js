@@ -59,16 +59,16 @@ class Signin extends React.Component {
 				      <div className="mt3">
 				        <label className="fl db fw6 lh-copy f6" htmlFor="email-address" >Email</label>
 				        <input onChange={this.onEmailchange}
-				         className="pa2 input-reset ba bg-transparent hover-bg-black w-100"
+				         className="pa2 input-reset ba bg-transparent  w-100"
 				         type="email" name="email-address"  id="email-address" placeholder="Enter email-address"/>
 				      </div>
 				      <div className="mv3">
 				        <label className="fl db fw6 lh-copy f6" htmlFor="password" >Password</label>
 				        <input onChange = {this.onPassswordChange}
-				        className="pa2 input-reset ba bg-transparent hover-bg-black w-100" type="password" name="password"  id="password" placeholder="Enter password"/>
+				        className="pa2 input-reset ba bg-transparent  w-100" type="password" name="password"  id="password" placeholder="Enter password"/>
 				      </div>
 				    </fieldset>
-  						<p className='text-left valid'>{this.state.error}</p>
+  						<p className='valid'>{this.state.error}</p>
 				    <div className="lh-copy mt3">
 				      <input onClick= {this.onsubmitSignin} 
 				      className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"

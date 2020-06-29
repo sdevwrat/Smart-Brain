@@ -78,22 +78,22 @@ class Register extends React.Component {
 			      <div className="mt3">
 			        <label className="fl db fw6 lh-copy f6" htmlFor="name" >Name</label>
 			        <input onChange={this.onNamechange}
-			      	className="pa2 input-reset ba bg-transparent hover-bg-black  w-100" type="text" name="name"  id="name" placeholder="Ex: John"/>
+			      	className="pa2 input-reset ba bg-transparent   w-100" type="text" name="name"  id="name" placeholder="Ex: John"/>
   					{this.state.name.length>0 && 
-  						<p className='text-left valid'>{this.state.name_error}</p>
+  						<p className='tl valid'>{this.state.name_error}</p>
   					}
 			      </div>
 			      <div className="mt3">
 			        <label className="fl db fw6 lh-copy f6" htmlFor="email-address" >Email</label>
 			        <input onChange={this.onEmailchange}  
-			        className="pa2 input-reset ba bg-transparent hover-bg-black w-100" type='email' name="email-address"  id="email-address" placeholder="Ex: test@gmail.com"/>
-  					{this.state.email.length>0 &&<p className='text-left valid'>{this.state.email_error}</p>}
+			        className="pa2 input-reset ba bg-transparent  w-100" type='email' name="email-address"  id="email-address" placeholder="Ex: test@gmail.com"/>
+  					{this.state.email.length>0 &&<p className='tl valid'>{this.state.email_error}</p>}
   					</div>
 			      <div className="mv3">
 			        <label className="fl db fw6 lh-copy f6" htmlFor="password" >Password</label>
 			        <input onChange={this.onPassswordChange}
-			        className="pa2 input-reset ba bg-transparent hover-bg-black w-100" type="password" name="password"  id="password" placeholder="Ex: qwerty@123"/>
-  					{this.state.password.length>0 && <p className='text-left valid'>{this.state.pass_error}</p>}
+			        className="pa2 input-reset ba bg-transparent  w-100" type="password" name="password"  id="password" placeholder="Ex: qwerty@123"/>
+  					{this.state.password.length>0 && <p className='tl valid'>{this.state.pass_error}</p>}
 			      </div>
 			    <div className="lh-copy mt3">
 			      <input onClick={this.onsubmit} 
